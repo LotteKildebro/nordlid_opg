@@ -1,0 +1,169 @@
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* --------- header ---------- */
+
+.h2-top h2 {
+    color: #304a5f;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1.8em !important;
+    padding: 0px 15px;
+    max-width: 999px;
+}
+
+.row h3 {
+    font-weight: 200 !important;
+}
+
+.carousel-caption h1 {
+    text-align: left;
+    padding-left: 20%;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#headerPic {
+    display: none;
+}
+
+/*--------- form --------*/
+
+.form-group {
+    background-color: #fff;
+    min-height: 50px;
+    color: #304a5f;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+select {
+    display: inline-block;
+    border-bottom: 1px solid #304a5f;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-radius: 0%;
+    font-size: .8em;
+}
+
+#msg0,
+#msg1,
+#msg2 {
+    color: #e6007e !important;
+    font-size: .8em;
+}
+
+.btn {
+    background-color: #e6007e !important;
+    color: #fff !important;
+    width: 200px;
+    border-radius: 0px !important;
+}
+
+label {
+    font-size: .6em;
+    max-width: 450px;
+}
+
+/*-------- cointainer with icons ----------*/
+
+.cointain3 {
+    background-color: #2a697b;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.cointain3 .row {
+    padding: 2%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+/* ------------ footer ------------------*/
+
+footer {
+    background-color: #313131;
+    color: #fff;
+}
+
+footer .left-f {
+    text-align: right;
+    padding-top: 13em;
+}
+
+.text-al p {
+    width: 400px;
+}
+
+span.font2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8em !important;
+}
+
+.rowfot {
+    padding-top: 3em;
+    padding-bottom: 6em;
+    max-width: 1000px;
+}
+
+/* ------------ media query ------------ */
+
+@media only screen and (max-width: 1000px) {
+    .carousel-caption h1 {
+        font-size: 2em !important;
+    }
+    .h2-top h2 {
+        padding: 1.2em;
+    }
+    footer .left-f {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .carousel-caption h1 {
+        font-size: 1.4em !important;
+    }
+    p,
+    .h2-top h2 {
+        padding: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    img {
+        width: 100%;
+    }
+    .cointain3 .row img {
+        width: 50%;
+    }
+    p,
+    .h2-top h2 {
+        width: 100%;
+        padding: 1.3em;
+    }
+    #headerPic {
+        display: block;
+    }
+    #carouselExampleControls {
+        display: none;
+    }
+    .btn {
+        width: 100%;
+        margin: 3px auto;
+    }
+}
